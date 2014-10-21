@@ -1,0 +1,103 @@
+header img {
+   margin: 0;
+  padding: 0;
+
+ 
+}
+nav {
+	display: table;
+	color: black;
+	font-family: Verdana;
+	font-weight: 900;
+	font-size: 16px;
+	border-radius: 30px;
+    height: 5px;
+    width: 1200px;
+    margin : 40px auto;
+    padding: 5px;
+    background-color: #d727d4;
+}
+ul li {
+	display : table-cell;
+	padding: 5px;
+}	
+
+article img {
+	font-family: "Verdana"
+	font-size: "24px";
+	color : #d727d4 ;
+	align: "center";
+ 	height: 800px;
+ 	width: 1000px;
+ 	margin-top: 20px;
+  background: url(image.jpg) no-repeat center center;
+  background-size: cover;
+}
+article{
+	font-family: "Verdana"
+	font-size: "24px";
+	color : #d727d4 ;
+	font-style: italic;
+	padding: 2px;
+	margin-bottom: 2px;
+
+}
+
+h2 {
+	text-align: center;
+	font-family: fantasy;
+	font-size: 50px;
+	font-stretch: semi-expanded;
+	color : black;
+	font-size: 24;
+	padding-bottom: 1px;
+	line-height: 1px;
+}
+h4 {
+	padding-top: 1px;
+	text-align: center;
+	font-style: italic;
+	font-family: fantasy;
+	font-size: 40px;
+	color : black;
+	font-size: 24;
+}
+	
+
+td img {
+	align: "center";
+	height: 200px;
+	width:100;
+	margin :1px;
+	padding: 0 5pxpx;
+}
+
+h3 table {
+	display: table-cell;
+	padding: 10px;
+	border-spacing: 100px;
+	margin:auto;
+	font-size: 24;
+}	
+footer nav {
+	display: table;
+	color: black;
+	font-family: Verdana;
+	font-weight: 900;
+	font-size: 16px;
+	border-radius: 30px;
+    height: 5px;
+    width: 1200px;
+    margin : 40px auto;
+    padding: 5px;
+    background-color: #d727d4;
+}
+li a {
+	font-size: 20px;
+  padding: 0 10px;
+  color: blue;
+  text-decoration: none;
+}
+footer nav li a {
+ align: "right";
+}   
