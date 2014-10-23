@@ -1,47 +1,47 @@
 header img {
    margin: 0;
   padding: 0;
-
- 
-}
-nav {
-	display: table;
-	color: black;
-	font-family: Verdana;
-	font-weight: 900;
-	font-size: 16px;
-	border-radius: 30px;
-    height: 5px;
-    width: 1200px;
-    margin : 40px auto;
-    padding: 5px;
-    background-color: #d727d4;
 }
 ul li {
 	display : table-cell;
 	padding: 5px;
 }	
 
-article img {
-	font-family: "Verdana"
-	font-size: "24px";
-	color : #d727d4 ;
-	align: "center";
- 	height: 800px;
- 	width: 1000px;
- 	margin-top: 20px;
-  background: url(image.jpg) no-repeat center center;
-  background-size: cover;
+section article {
+	background: url(image.jpg) no repeat center center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;   
+    
 }
-article{
-	font-family: "Verdana"
-	font-size: "24px";
-	color : #d727d4 ;
-	font-style: italic;
-	padding: 2px;
-	margin-bottom: 2px;
 
+#deux {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;   
 }
+
+
+section p a {
+	font-size: 30px;
+    color: #d727d4;
+    bottom: 800px;
+    text-align: center;
+}
+
+article a{
+	font-family: "Verdana"
+	font-size: "94px";
+	color : #d727d4 ;
+}
+article button {
+	margin-top: -11;
+}
+
 
 h2 {
 	text-align: center;
@@ -50,9 +50,11 @@ h2 {
 	font-stretch: semi-expanded;
 	color : black;
 	font-size: 24;
-	padding-bottom: 1px;
+	padding-top: 20px;
+	padding-bottom: 23px;
 	line-height: 1px;
 }
+
 h4 {
 	padding-top: 1px;
 	text-align: center;
@@ -62,42 +64,100 @@ h4 {
 	color : black;
 	font-size: 24;
 }
+
+h3 {
+	padding: 0px;
+	text-align: center;
+	font-style: italic;
+	font-family: fantasy;
+	font-size: 40px;
+	color : black;
+	font-size: 24;
+}
 	
 
-td img {
-	align: "center";
-	height: 200px;
-	width:100;
-	margin :1px;
-	padding: 0 5pxpx;
+#visuels {
+	display: inline-block;
+    float: left;	
 }
 
-h3 table {
-	display: table-cell;
-	padding: 10px;
-	border-spacing: 100px;
-	margin:auto;
-	font-size: 24;
-}	
-footer nav {
-	display: table;
-	color: black;
-	font-family: Verdana;
-	font-weight: 900;
-	font-size: 16px;
-	border-radius: 30px;
-    height: 5px;
-    width: 1200px;
-    margin : 40px auto;
-    padding: 5px;
-    background-color: #d727d4;
+div img {
+	height: 500px;
+	width: 500px;	
 }
+article img {
+	height: 700px;
+	width: 800px;
+ 	margin-left: auto;
+    margin-right: auto;
+}
+
+
 li a {
 	font-size: 20px;
   padding: 0 10px;
-  color: blue;
+  color: black;
   text-decoration: none;
 }
 footer nav li a {
  align: "right";
-}   
+}  
+
+@media (max-width:320px) {  /*small mobile*/
+  h2 {
+    font-size: 15px;;
+  }
+}
+
+@media (min-width:321px) and (max-width:959px) {  /*tablet*/
+  h2 {
+    font-size: 15px; 
+  }
+}
+@media (min-width:960px) and (max-width:1599px) {  /*desktop*/
+  h2 {
+    font-size: 35px;  }
+}
+@media (min-width:1600px) {  /*desktop and tv*/
+  h2 {
+    font-size: 50px;;
+  }
+}
+
+.container {
+	text-align: justify;
+	font-size: 20px;
+	font-weight: 20px;
+	padding: 10px 0px 10px 0px;
+	vertical-align: middle;
+
+}
+
+.img-responsive {
+	max-width: 100%;
+	height: auto;
+}
+
+.nav navbar-nav navbar-right {
+	text-align: right;
+}
+nav {
+	background-color: #d727d4
+	color: black;
+}
+nav {
+  background-color:#bcd;
+  border-radius: 8px;
+  padding: 0;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+.btn {
+color: violet;
+text-decoration: none;
+background-color: black;
+}
+.navbar {
+background-color: black;
+font-size: violet;
+}
